@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
             val checkout = Checkout()
 
             // Set the Razorpay API Key (replace with your actual key)
-            checkout.setKeyID("rzp_test_VMDttTRKDifnoj")
+            checkout.setKeyID("ABC")
 
             // Initialize a JSON object for payment details
             val obj = JSONObject()
